@@ -1404,7 +1404,7 @@
 		)
 		(uuid "b81880c5-ce98-4dae-b1ed-f60b00efa73e")
 	)
-	(hierarchical_label "Nitrogen_Line_Control"
+	(hierarchical_label "Nitrous_Line_Control"
 		(shape input)
 		(at 203.2 87.63 180)
 		(effects

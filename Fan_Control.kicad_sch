@@ -360,6 +360,16 @@
 		)
 		(uuid "a6e919a9-486c-4bd6-bdcd-0bdcb719814f")
 	)
+	(text "TO-DO: Use step-down converter for fan power."
+		(exclude_from_sim no)
+		(at 67.818 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "bdce5cb9-1418-45c2-a982-663bc69eb306")
+	)
 	(text "Assuming a 3-pin PC Fan, will probably need to drop voltage."
 		(exclude_from_sim no)
 		(at 74.93 80.01 0)
