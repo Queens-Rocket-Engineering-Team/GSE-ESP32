@@ -176,179 +176,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_US"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "R"
-				(at 2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "R_US"
-				(at -2.54 0 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 1.016 -0.254 90)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Resistor, US symbol"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "R res resistor"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "R_*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "R_US_0_1"
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 0 2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 -2.286) (xy 0 -2.54)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "R_US_1_1"
-				(pin passive line
-					(at 0 3.81 270)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 0 -3.81 90)
-					(length 1.27)
-					(name "~"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 	)
 	(text "24V power in, assuming a 12V fan."
 		(exclude_from_sim no)
@@ -380,33 +207,9 @@
 		)
 		(uuid "d0cec563-4147-4704-9bac-a522690d622d")
 	)
-	(junction
-		(at 57.15 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1ad4f376-5bd1-4fca-b775-2bde2bc55a68")
-	)
-	(junction
-		(at 81.28 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc12e8ee-2c13-443d-a9c1-4f80e58e3a9f")
-	)
-	(junction
-		(at 119.38 107.95)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d4185f61-5214-4145-89f0-ff7cc8f9d4cd")
-	)
-	(junction
-		(at 142.24 119.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ef230d95-06d2-472c-a696-5b8958f0d3f8")
-	)
 	(wire
 		(pts
-			(xy 142.24 113.03) (xy 142.24 119.38)
+			(xy 142.24 113.03) (xy 142.24 121.92)
 		)
 		(stroke
 			(width 0)
@@ -426,17 +229,7 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 107.95) (xy 57.15 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3fcbf3ed-844a-4aaa-a2cd-9d3b6c7568a3")
-	)
-	(wire
-		(pts
-			(xy 81.28 119.38) (xy 81.28 121.92)
+			(xy 81.28 113.03) (xy 81.28 121.92)
 		)
 		(stroke
 			(width 0)
@@ -466,16 +259,6 @@
 	)
 	(wire
 		(pts
-			(xy 119.38 93.98) (xy 115.57 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5faf6c99-a21a-46af-8ba9-4d6a57df070e")
-	)
-	(wire
-		(pts
 			(xy 57.15 107.95) (xy 81.28 107.95)
 		)
 		(stroke
@@ -483,46 +266,6 @@
 			(type default)
 		)
 		(uuid "6f75161d-91b1-4a80-9faf-319828957ef2")
-	)
-	(wire
-		(pts
-			(xy 119.38 107.95) (xy 119.38 111.76)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "776dc2af-d718-46d1-ab9b-e17a4d575d11")
-	)
-	(wire
-		(pts
-			(xy 142.24 119.38) (xy 142.24 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8108eefa-9450-4f4c-9f5a-3516e17f4b15")
-	)
-	(wire
-		(pts
-			(xy 119.38 119.38) (xy 142.24 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "922b5d04-4d0f-4b11-bf23-7e735a09341d")
-	)
-	(wire
-		(pts
-			(xy 81.28 113.03) (xy 81.28 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a78703ba-2dcf-48df-b145-285985a0a371")
 	)
 	(wire
 		(pts
@@ -536,36 +279,6 @@
 	)
 	(wire
 		(pts
-			(xy 57.15 96.52) (xy 57.15 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc5e53b9-18af-4c36-b6ca-f75b8e3b1102")
-	)
-	(wire
-		(pts
-			(xy 57.15 119.38) (xy 81.28 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "daa90c68-edc1-4fac-89aa-70f52a3e5699")
-	)
-	(wire
-		(pts
-			(xy 119.38 96.52) (xy 119.38 93.98)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "db3a05f5-9660-473c-b86d-e85d16bd8ab3")
-	)
-	(wire
-		(pts
 			(xy 119.38 107.95) (xy 142.24 107.95)
 		)
 		(stroke
@@ -573,16 +286,6 @@
 			(type default)
 		)
 		(uuid "f4095bc7-cb2d-4375-b569-5c70fb5216da")
-	)
-	(wire
-		(pts
-			(xy 57.15 91.44) (xy 49.53 91.44)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f80bd5d4-9a55-4cda-9911-9e3fa021ab4a")
 	)
 	(hierarchical_label "Fan_1_Control"
 		(shape input)
@@ -630,7 +333,7 @@
 	)
 	(hierarchical_label "Fan_1_Power"
 		(shape input)
-		(at 49.53 91.44 180)
+		(at 57.15 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -641,7 +344,7 @@
 	)
 	(hierarchical_label "Fan_2_Power"
 		(shape input)
-		(at 115.57 93.98 180)
+		(at 119.38 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -724,216 +427,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 57.15 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "65aa1cc3-7774-496b-8aba-11e09eee7a93")
-		(property "Reference" "R57"
-			(at 59.69 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50"
-			(at 59.69 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.166 115.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 57.15 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "ede63e8b-aaaf-40d5-bafe-318965be3e46")
-		)
-		(pin "1"
-			(uuid "698d2427-bd09-448b-807c-e50ba259194f")
-		)
-		(instances
-			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/cec7ca12-a0bf-4031-9c0d-c0b354201f18"
-					(reference "R57")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 57.15 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "862b3fc4-0ded-41db-b7b8-cb5cf41e3420")
-		(property "Reference" "R56"
-			(at 59.69 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50"
-			(at 59.69 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 58.166 100.584 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 57.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 57.15 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "23a5ff34-55d7-4de0-ab2b-3cce1576f940")
-		)
-		(pin "1"
-			(uuid "8f973177-770e-4c3f-9c5c-f661f8bc064e")
-		)
-		(instances
-			(project ""
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/cec7ca12-a0bf-4031-9c0d-c0b354201f18"
-					(reference "R56")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 119.38 115.57 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a9b12ba5-0998-43fe-849b-570e870fec87")
-		(property "Reference" "R59"
-			(at 121.92 114.2999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50"
-			(at 121.92 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.396 115.824 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 119.38 115.57 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "40838bbc-60e1-4804-89df-319e5671aab4")
-		)
-		(pin "1"
-			(uuid "4596fad3-3e27-4a72-9f49-0756cfa2a69c")
-		)
-		(instances
-			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/cec7ca12-a0bf-4031-9c0d-c0b354201f18"
-					(reference "R59")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 86.36 110.49 0)
 		(unit 1)
@@ -1001,76 +494,6 @@
 			(project ""
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/cec7ca12-a0bf-4031-9c0d-c0b354201f18"
 					(reference "J20")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 119.38 100.33 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9a3a9c6-250b-4d3f-a527-f6a7e5b67edc")
-		(property "Reference" "R58"
-			(at 121.92 99.0599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "50"
-			(at 121.92 101.5999 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 120.396 100.584 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor, US symbol"
-			(at 119.38 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f84ad0e6-3ed3-41c9-849a-909dcdc6726d")
-		)
-		(pin "1"
-			(uuid "79eb4070-3ab5-4708-bb40-54a87354a3fb")
-		)
-		(instances
-			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/cec7ca12-a0bf-4031-9c0d-c0b354201f18"
-					(reference "R58")
 					(unit 1)
 				)
 			)

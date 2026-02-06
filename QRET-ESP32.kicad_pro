@@ -661,6 +661,10 @@
     [
       "cec7ca12-a0bf-4031-9c0d-c0b354201f18",
       "Fan_Control"
+    ],
+    [
+      "aadee4fd-0dc7-4f54-b808-b7c87662d316",
+      "Power_Regulation_2"
     ]
   ],
   "text_variables": {}

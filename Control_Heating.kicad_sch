@@ -332,6 +332,16 @@
 		)
 		(uuid "733f9b8d-f43b-41ca-ac87-a007fa15ca1f")
 	)
+	(text "System_Variable doesn't need to be ADCed."
+		(exclude_from_sim no)
+		(at 67.818 84.328 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "b6e5168a-2fba-45e8-94bf-54cbd2247055")
+	)
 	(hierarchical_label "System_1_PWR"
 		(shape input)
 		(at 68.58 93.98 180)
