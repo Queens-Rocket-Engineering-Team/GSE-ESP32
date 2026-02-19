@@ -495,7 +495,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO:\nVerify all stolen and original connections make sense.\nOnce specific hardware models are known, look at all PWR lines especially.\nChange to old Panda Microcontroller\nVerify step-down converter for fan power.\nIf some power regulation lines can be removed (24V safe), bring power regulation pages together.\n\nKeep decoupling capacitor close for wavelength reasons (general)"
+	(text "TODO:\nVerify all stolen and original connections make sense.\nOnce specific hardware models are known, look at all PWR lines especially.\nChange to old Panda Microcontroller\nVerify step-down converter for fan power.\nIf some power regulation lines can be removed (24V safe), bring power regulation pages together.\n\nKeep decoupling capacitor close for wavelength reasons (general)\n\nNix All Safe_24\nRemove Old ESP32 Stuff\nNix USB Oring\n"
 		(exclude_from_sim no)
 		(at 14.732 27.178 0)
 		(effects
@@ -738,7 +738,7 @@
 	)
 	(wire
 		(pts
-			(xy 36.83 125.73) (xy 39.37 125.73)
+			(xy 36.83 128.27) (xy 39.37 128.27)
 		)
 		(stroke
 			(width 0)
@@ -888,7 +888,7 @@
 	)
 	(wire
 		(pts
-			(xy 74.93 125.73) (xy 77.47 125.73)
+			(xy 74.93 128.27) (xy 77.47 128.27)
 		)
 		(stroke
 			(width 0)
@@ -1330,6 +1330,28 @@
 			)
 		)
 	)
+	(global_label "Fan_2_PWM"
+		(shape input)
+		(at 30.48 81.28 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "61fe35b7-b850-4545-ae6c-d7953d376c90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.7907 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRDY3"
 		(shape input)
 		(at 67.31 78.74 0)
@@ -1348,6 +1370,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A2_Control"
+		(shape input)
+		(at 30.48 67.31 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "6c863fee-1977-4480-a6f5-91d08fe35a79")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.335 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -1392,6 +1436,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Fan_2_PWM"
+		(shape input)
+		(at 74.93 124.46 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "6e720572-e2f5-4f55-8ab6-0235af76d2ed")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.6193 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1528,6 +1594,28 @@
 			)
 		)
 	)
+	(global_label "Fan_1_PWM"
+		(shape input)
+		(at 30.48 78.74 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "95a659a2-855f-4bc6-9606-b04582f4c1c7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 16.7907 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRDY3"
 		(shape input)
 		(at 266.7 88.9 0)
@@ -1585,6 +1673,28 @@
 		(uuid "a12bfebb-9b71-4ecc-b864-5a061a8eb54b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 207.0487 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Nitrous_Control"
+		(shape input)
+		(at 30.48 69.85 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a5d6b16c-1b64-46b8-b93d-f590c32d23d5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 12.8598 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1924,6 +2034,50 @@
 			)
 		)
 	)
+	(global_label "Fan_1_PWM"
+		(shape input)
+		(at 39.37 124.46 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ee362655-143b-461a-8464-4e3af2dab812")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 25.6807 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "A1_Control"
+		(shape input)
+		(at 30.48 64.77 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "f4ee26de-6c38-4b1c-ad8f-3ddc42ec7065")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 17.335 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_Data"
 		(shape input)
 		(at 248.92 83.82 0)
@@ -2044,7 +2198,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "053de92d-bc1b-459c-aa4a-9be4b60d96dd")
-		(property "Reference" "#PWR0108"
+		(property "Reference" "#PWR0113"
 			(at 265.43 57.15 0)
 			(effects
 				(font
@@ -2094,7 +2248,7 @@
 		(instances
 			(project ""
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR0108")
+					(reference "#PWR0113")
 					(unit 1)
 				)
 			)
@@ -2110,7 +2264,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1dca504f-264d-4913-8881-2395aee51cfd")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR0103"
 			(at 245.11 72.39 0)
 			(effects
 				(font
@@ -2160,7 +2314,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR025")
+					(reference "#PWR0103")
 					(unit 1)
 				)
 			)
@@ -2176,7 +2330,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "51ff611e-e386-4113-bbeb-a91857035c9d")
-		(property "Reference" "#PWR098"
+		(property "Reference" "#PWR0101"
 			(at 176.53 63.5 0)
 			(effects
 				(font
@@ -2226,7 +2380,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR098")
+					(reference "#PWR0101")
 					(unit 1)
 				)
 			)
@@ -2242,7 +2396,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "78c72a2b-b64e-42c5-b657-16663fb71013")
-		(property "Reference" "R62"
+		(property "Reference" "R2"
 			(at 266.7 83.8199 0)
 			(effects
 				(font
@@ -2260,7 +2414,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 264.16 85.09 0)
 			(effects
 				(font
@@ -2296,7 +2450,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "R62")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -2312,7 +2466,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8499c3a6-c490-424f-8f1b-b67e71377541")
-		(property "Reference" "R60"
+		(property "Reference" "R3"
 			(at 267.97 55.8799 0)
 			(effects
 				(font
@@ -2330,7 +2484,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 265.43 57.15 0)
 			(effects
 				(font
@@ -2366,7 +2520,7 @@
 		(instances
 			(project ""
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "R60")
+					(reference "R3")
 					(unit 1)
 				)
 			)
@@ -2382,7 +2536,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8705145a-d213-49bd-a9b2-d41e0b421917")
-		(property "Reference" "#PWR099"
+		(property "Reference" "#PWR0107"
 			(at 36.83 118.11 0)
 			(effects
 				(font
@@ -2432,7 +2586,7 @@
 		(instances
 			(project ""
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR099")
+					(reference "#PWR0107")
 					(unit 1)
 				)
 			)
@@ -2440,7 +2594,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 77.47 125.73 0)
+		(at 77.47 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2448,8 +2602,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "97ce929f-1bd3-4bf2-b7da-b75a83e3644f")
-		(property "Reference" "#PWR0107"
-			(at 77.47 132.08 0)
+		(property "Reference" "#PWR0109"
+			(at 77.47 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2458,7 +2612,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 77.47 130.81 0)
+			(at 77.47 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2466,7 +2620,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 77.47 125.73 0)
+			(at 77.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2475,7 +2629,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 77.47 125.73 0)
+			(at 77.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2484,7 +2638,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 77.47 125.73 0)
+			(at 77.47 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2498,7 +2652,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR0107")
+					(reference "#PWR0109")
 					(unit 1)
 				)
 			)
@@ -2514,7 +2668,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "9c706dd2-50e9-43be-97ed-8b8595fc5daf")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR0102"
 			(at 243.84 100.33 0)
 			(effects
 				(font
@@ -2564,7 +2718,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR027")
+					(reference "#PWR0102")
 					(unit 1)
 				)
 			)
@@ -2580,7 +2734,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a6c465f3-4c02-45a4-bf52-6437055be88f")
-		(property "Reference" "#PWR0116"
+		(property "Reference" "#PWR0104"
 			(at 264.16 85.09 0)
 			(effects
 				(font
@@ -2630,7 +2784,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR0116")
+					(reference "#PWR0104")
 					(unit 1)
 				)
 			)
@@ -2646,7 +2800,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "bdeb7471-b31b-4bd5-a872-6695ff894f94")
-		(property "Reference" "#PWR097"
+		(property "Reference" "#PWR0105"
 			(at 129.54 63.5 0)
 			(effects
 				(font
@@ -2696,7 +2850,7 @@
 		(instances
 			(project ""
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR097")
+					(reference "#PWR0105")
 					(unit 1)
 				)
 			)
@@ -2704,7 +2858,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 36.83 125.73 0)
+		(at 36.83 128.27 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2712,8 +2866,8 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c1b92041-5599-42d4-8841-4ca741da3ab4")
-		(property "Reference" "#PWR0102"
-			(at 36.83 132.08 0)
+		(property "Reference" "#PWR0106"
+			(at 36.83 134.62 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2722,7 +2876,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 36.83 130.81 0)
+			(at 36.83 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2730,7 +2884,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 36.83 125.73 0)
+			(at 36.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2739,7 +2893,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 36.83 125.73 0)
+			(at 36.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2748,7 +2902,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 36.83 125.73 0)
+			(at 36.83 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2762,7 +2916,7 @@
 		(instances
 			(project ""
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR0102")
+					(reference "#PWR0106")
 					(unit 1)
 				)
 			)
@@ -2778,7 +2932,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "cba5baa7-53dc-421b-a751-b3093db7b028")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR0112"
 			(at 238.76 43.18 0)
 			(effects
 				(font
@@ -2828,7 +2982,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR024")
+					(reference "#PWR0112")
 					(unit 1)
 				)
 			)
@@ -2844,7 +2998,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d05ac262-8c66-4151-92b5-8565fb264cc9")
-		(property "Reference" "R61"
+		(property "Reference" "R1"
 			(at 257.81 26.6699 0)
 			(effects
 				(font
@@ -2862,7 +3016,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 255.27 27.94 0)
 			(effects
 				(font
@@ -2898,7 +3052,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "R61")
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -2914,7 +3068,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "dc8c322f-85fc-434e-9ae2-789e4e8a7b12")
-		(property "Reference" "#PWR0115"
+		(property "Reference" "#PWR0110"
 			(at 255.27 27.94 0)
 			(effects
 				(font
@@ -2964,7 +3118,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR0115")
+					(reference "#PWR0110")
 					(unit 1)
 				)
 			)
@@ -2980,7 +3134,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e694600d-9ef9-4a34-be46-f5b18f2a9749")
-		(property "Reference" "#PWR0100"
+		(property "Reference" "#PWR0108"
 			(at 77.47 118.11 0)
 			(effects
 				(font
@@ -3030,7 +3184,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR0100")
+					(reference "#PWR0108")
 					(unit 1)
 				)
 			)
@@ -3046,7 +3200,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "e6ca0caa-735c-48ee-a5cf-e410ea82f255")
-		(property "Reference" "#PWR023"
+		(property "Reference" "#PWR0111"
 			(at 234.95 43.18 0)
 			(effects
 				(font
@@ -3096,7 +3250,7 @@
 		(instances
 			(project ""
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(reference "#PWR023")
+					(reference "#PWR0111")
 					(unit 1)
 				)
 			)
@@ -3561,48 +3715,6 @@
 		)
 	)
 	(sheet
-		(at 155.575 109.22)
-		(size 24.765 19.05)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "aadee4fd-0dc7-4f54-b808-b7c87662d316")
-		(property "Sheetname" "Power_Regulation_2"
-			(at 155.575 108.5084 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power_Regulation_2.kicad_sch"
-			(at 155.575 128.8546 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(page "12")
-				)
-			)
-		)
-	)
-	(sheet
 		(at 218.44 81.28)
 		(size 19.05 13.97)
 		(exclude_from_sim no)
@@ -3789,7 +3901,7 @@
 			)
 		)
 		(pin "Actuator_1_Control" output
-			(at 30.48 65.405 180)
+			(at 30.48 64.77 180)
 			(uuid "dbe6a37f-18d2-42e9-9bc9-036f2100e06d")
 			(effects
 				(font
@@ -3799,7 +3911,7 @@
 			)
 		)
 		(pin "Actuator_2_Control" output
-			(at 30.48 67.945 180)
+			(at 30.48 67.31 180)
 			(uuid "085a3f71-e8e7-425f-9569-63428aff02a0")
 			(effects
 				(font
@@ -3809,7 +3921,7 @@
 			)
 		)
 		(pin "Actuator_Nitrous_Control" output
-			(at 30.48 70.485 180)
+			(at 30.48 69.85 180)
 			(uuid "f00f2054-26a3-46c7-aa1a-c51f74474982")
 			(effects
 				(font
@@ -3818,59 +3930,9 @@
 				(justify left)
 			)
 		)
-		(pin "IO1_ADC1" input
-			(at 30.48 73.66 180)
-			(uuid "d03e9944-9bc1-4e8b-85fc-cf31e1444505")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO2_ADC1" input
-			(at 30.48 76.2 180)
-			(uuid "796f4541-3b3d-4e90-a987-c9fc161eb2c0")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO4_ADC1" input
-			(at 30.48 81.28 180)
-			(uuid "d9ee6044-3bb2-43ed-b6ab-95d283930135")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(pin "IO5_ADC1" input
-			(at 67.31 53.34 0)
-			(uuid "640470a1-6edf-4756-9b75-6ee941eb92f6")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IO8_ADC1" input
-			(at 67.31 55.88 0)
-			(uuid "c7267670-fe6f-4435-b2b3-eff3edbf4588")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IO45" input
+		(pin "DRDY1" input
 			(at 67.31 73.66 0)
-			(uuid "2cac66f9-a6d6-4ac5-9c42-8553a69b88cf")
+			(uuid "d35bf317-591d-4d57-91a3-0d506cef52f1")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3878,9 +3940,9 @@
 				(justify right)
 			)
 		)
-		(pin "IO46" input
+		(pin "DRDY2" input
 			(at 67.31 76.2 0)
-			(uuid "8cf6cb26-148b-4147-ae3a-c76591e1e33b")
+			(uuid "6eb5113b-17ec-468d-9350-5da018231d80")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3888,9 +3950,9 @@
 				(justify right)
 			)
 		)
-		(pin "IO47" input
+		(pin "DRDY3" input
 			(at 67.31 78.74 0)
-			(uuid "4830bb35-558d-4150-a13a-b50fbe0e8b06")
+			(uuid "39c5ce7d-6383-4b79-9f52-d9eca77af472")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3898,19 +3960,9 @@
 				(justify right)
 			)
 		)
-		(pin "IO48" input
-			(at 67.31 81.28 0)
-			(uuid "30dafe1e-62da-4648-80c1-91e9babfb94b")
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(pin "IO3_ADC1" input
-			(at 30.48 78.74 180)
-			(uuid "7ada1315-2b69-4bf1-8d04-c309e97f5dd1")
+		(pin "Fan_1_Control" output
+			(at 30.48 73.66 180)
+			(uuid "99e88215-2186-4999-9162-e14d9133f127")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3918,9 +3970,29 @@
 				(justify left)
 			)
 		)
-		(pin "IO21" input
+		(pin "Fan_1_PWM" output
+			(at 30.48 78.74 180)
+			(uuid "ace4964d-6e5c-40a3-893e-4f1175622f11")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Fan_2_PWM" output
+			(at 30.48 81.28 180)
+			(uuid "1f7c286f-ca2d-4069-9e54-d7dac433354b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Heat_1_Power" output
 			(at 67.31 63.5 0)
-			(uuid "cc914c0d-7dfa-410b-a72c-4cd2bc638667")
+			(uuid "6bb7d94c-9429-4aa8-ac4a-30b3ad0fc0d5")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3928,14 +4000,24 @@
 				(justify right)
 			)
 		)
-		(pin "IO38" input
+		(pin "Heat_2_Power" output
 			(at 67.31 66.04 0)
-			(uuid "aae825cb-6afc-4e7b-8bd9-8ffbbe7198b3")
+			(uuid "3e94238c-ca6f-42f8-be49-fb86eec058f8")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify right)
+			)
+		)
+		(pin "Fan_2_Control" output
+			(at 30.48 76.2 180)
+			(uuid "10739746-bf83-40a0-b617-56d4d7037c66")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 			)
 		)
 		(instances
@@ -4021,7 +4103,7 @@
 			)
 		)
 		(pin "To_GND_1" output
-			(at 39.37 125.73 180)
+			(at 39.37 128.27 180)
 			(uuid "1fb0e995-50ca-4c52-96d9-c090031374f8")
 			(effects
 				(font
@@ -4031,8 +4113,28 @@
 			)
 		)
 		(pin "To_GND_2" output
-			(at 74.93 125.73 0)
+			(at 74.93 128.27 0)
 			(uuid "ff9565e9-676c-4671-bba7-ed7aaee5ebe1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "Fan_1_PWM" input
+			(at 39.37 124.46 180)
+			(uuid "abd94484-963f-4c1b-beb0-4dddc2350404")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "Fan_2_PWM" input
+			(at 74.93 124.46 0)
+			(uuid "208d89e2-b3db-4768-86f6-ff6e1661a128")
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4044,48 +4146,6 @@
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
 					(page "11")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 220.98 144.145)
-		(size 57.15 17.78)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "e0b7a3a3-9628-4bfc-90d5-0dd1a7b5923a")
-		(property "Sheetname" "Old_Reference"
-			(at 220.98 143.4334 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Old_Reference.kicad_sch"
-			(at 220.98 162.5096 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58"
-					(page "2")
 				)
 			)
 		)
@@ -4256,24 +4316,24 @@
 				(justify left top)
 			)
 		)
-		(pin "POWER_GOOD" output
-			(at 97.155 127 180)
-			(uuid "4eaa2d9b-b570-4d63-aa8c-fb208807806f")
+		(pin "12_POWER_GOOD" output
+			(at 130.81 125.73 0)
+			(uuid "7c70c42d-e0c3-43be-be39-28f01317fa7e")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(pin "SAFE_24V_CTL" input
-			(at 97.155 130.81 180)
-			(uuid "0cefa4a8-749b-40bc-a9c7-e4b2e03cfd19")
+		(pin "24_POWER_GOOD" output
+			(at 130.81 128.27 0)
+			(uuid "309cbeb1-141f-4fc5-b5cd-58576fe6460d")
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(instances

@@ -5,7 +5,7 @@
 	(uuid "50566f15-b417-4c36-9ced-b5bbb79e225d")
 	(paper "A4")
 	(lib_symbols
-		(symbol "Connector_Generic:Conn_01x03"
+		(symbol "Connector_Generic:Conn_01x04"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -21,8 +21,8 @@
 					)
 				)
 			)
-			(property "Value" "Conn_01x03"
-				(at 0 -5.08 0)
+			(property "Value" "Conn_01x04"
+				(at 0 -7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -47,7 +47,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 				(at 0 0 0)
 				(effects
 					(font
@@ -74,10 +74,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "Conn_01x03_1_1"
+			(symbol "Conn_01x04_1_1"
 				(rectangle
 					(start -1.27 3.81)
-					(end 1.27 -3.81)
+					(end 1.27 -6.35)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -111,6 +111,17 @@
 				(rectangle
 					(start -1.27 -2.413)
 					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -4.953)
+					(end 0 -5.207)
 					(stroke
 						(width 0.1524)
 						(type default)
@@ -173,43 +184,31 @@
 						)
 					)
 				)
+				(pin passive line
+					(at -5.08 -5.08 0)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
 			(embedded_fonts no)
 		)
 	)
-	(text "24V power in, assuming a 12V fan."
-		(exclude_from_sim no)
-		(at 61.214 76.962 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "a6e919a9-486c-4bd6-bdcd-0bdcb719814f")
-	)
-	(text "TO-DO: Use step-down converter for fan power."
-		(exclude_from_sim no)
-		(at 67.818 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "bdce5cb9-1418-45c2-a982-663bc69eb306")
-	)
-	(text "Assuming a 3-pin PC Fan, will probably need to drop voltage."
-		(exclude_from_sim no)
-		(at 74.93 80.01 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "d0cec563-4147-4704-9bac-a522690d622d")
-	)
 	(wire
 		(pts
-			(xy 142.24 113.03) (xy 142.24 121.92)
+			(xy 142.24 115.57) (xy 142.24 124.46)
 		)
 		(stroke
 			(width 0)
@@ -229,7 +228,17 @@
 	)
 	(wire
 		(pts
-			(xy 81.28 113.03) (xy 81.28 121.92)
+			(xy 137.16 113.03) (xy 142.24 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "35efa45c-885b-478b-a356-3bc41319d52f")
+	)
+	(wire
+		(pts
+			(xy 81.28 115.57) (xy 81.28 124.46)
 		)
 		(stroke
 			(width 0)
@@ -266,6 +275,16 @@
 			(type default)
 		)
 		(uuid "6f75161d-91b1-4a80-9faf-319828957ef2")
+	)
+	(wire
+		(pts
+			(xy 77.47 113.03) (xy 81.28 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "96b484d1-880f-470f-aa67-6f2f65811926")
 	)
 	(wire
 		(pts
@@ -309,9 +328,20 @@
 		)
 		(uuid "15c815e4-43a5-46d1-be1b-93907b8cf126")
 	)
+	(hierarchical_label "Fan_1_PWM"
+		(shape input)
+		(at 77.47 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "46594754-6c34-41fd-8273-f82483439864")
+	)
 	(hierarchical_label "To_GND_2"
 		(shape output)
-		(at 142.24 121.92 270)
+		(at 142.24 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -322,7 +352,7 @@
 	)
 	(hierarchical_label "To_GND_1"
 		(shape output)
-		(at 81.28 121.92 270)
+		(at 81.28 124.46 270)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -342,6 +372,17 @@
 		)
 		(uuid "b8d4ba3a-0d58-4e8a-877a-be56126e0cd9")
 	)
+	(hierarchical_label "Fan_2_PWM"
+		(shape input)
+		(at 137.16 113.03 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c09241b6-1174-4a03-830e-fd537a9508f0")
+	)
 	(hierarchical_label "Fan_2_Power"
 		(shape input)
 		(at 119.38 104.14 180)
@@ -354,80 +395,7 @@
 		(uuid "eec0687c-79d7-435a-9571-b46f77646dc1")
 	)
 	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
-		(at 147.32 110.49 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "3544f30b-ad00-4642-bb2b-7d327f1f2f58")
-		(property "Reference" "J21"
-			(at 149.86 109.2199 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "Conn_01x03"
-			(at 149.86 111.7599 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 147.32 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 147.32 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
-			(at 147.32 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "f3e55c8a-8db3-4735-aa21-8099fb96a0f7")
-		)
-		(pin "1"
-			(uuid "11934b10-a2b0-4c3c-88fc-90958f34141f")
-		)
-		(pin "3"
-			(uuid "b8262822-54ae-4515-ae5d-1274b2d6b162")
-		)
-		(instances
-			(project "QRET-ESP32"
-				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/cec7ca12-a0bf-4031-9c0d-c0b354201f18"
-					(reference "J21")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Connector_Generic:Conn_01x03")
+		(lib_id "Connector_Generic:Conn_01x04")
 		(at 86.36 110.49 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -435,9 +403,9 @@
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d1f28f7f-9af0-4485-96b9-be89bb46bfa2")
-		(property "Reference" "J20"
-			(at 88.9 109.2199 0)
+		(uuid "4d50552b-df44-42e2-9df4-d15f9bfc273a")
+		(property "Reference" "J9"
+			(at 88.9 110.4899 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -445,8 +413,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "Conn_01x03"
-			(at 88.9 111.7599 0)
+		(property "Value" "Conn_01x04"
+			(at 88.9 113.0299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -454,7 +422,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
 			(at 86.36 110.49 0)
 			(effects
 				(font
@@ -472,7 +440,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Generic connector, single row, 01x03, script generated (kicad-library-utils/schlib/autogen/connector/)"
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
 			(at 86.36 110.49 0)
 			(effects
 				(font
@@ -481,19 +449,98 @@
 				(hide yes)
 			)
 		)
+		(pin "3"
+			(uuid "22074635-da2a-43f1-8a53-388bb69bd9b5")
+		)
+		(pin "4"
+			(uuid "750eafec-d79a-4818-9218-7109ffba5393")
+		)
 		(pin "2"
-			(uuid "ddba74f2-5d23-4530-acf3-a0ea6e931f14")
+			(uuid "f80c15a8-a87c-40dc-bf25-f47930682425")
 		)
 		(pin "1"
-			(uuid "b93fe495-2bdd-4091-9211-5a1a0b9e8a6e")
-		)
-		(pin "3"
-			(uuid "f2f27241-6c00-43b4-896b-b0018bc1f772")
+			(uuid "57ee9601-9d7a-4070-b63f-97ef849a0f23")
 		)
 		(instances
 			(project ""
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/cec7ca12-a0bf-4031-9c0d-c0b354201f18"
-					(reference "J20")
+					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x04")
+		(at 147.32 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "5d29ba19-963d-4232-b97b-32c7448fe20f")
+		(property "Reference" "J10"
+			(at 149.86 110.4899 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x04"
+			(at 149.86 113.0299 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
+			(at 147.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 147.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x04, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 147.32 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "6cfdbdb9-4e27-474b-b05f-640bc4d6619c")
+		)
+		(pin "4"
+			(uuid "ee720baa-4747-4ca1-ae40-34fb4e072963")
+		)
+		(pin "2"
+			(uuid "90d7c23d-742f-48f0-994a-a7f182e03613")
+		)
+		(pin "1"
+			(uuid "ad100410-2ebd-441d-b6a9-b3758479734a")
+		)
+		(instances
+			(project "QRET-ESP32"
+				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/cec7ca12-a0bf-4031-9c0d-c0b354201f18"
+					(reference "J10")
 					(unit 1)
 				)
 			)

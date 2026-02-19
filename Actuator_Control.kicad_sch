@@ -1425,7 +1425,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "0adde1b0-0e54-4d9a-96ac-3e8e9787e1ad")
-		(property "Reference" "J16"
+		(property "Reference" "J5"
 			(at 162.56 76.1999 0)
 			(effects
 				(font
@@ -1443,7 +1443,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 160.02 76.2 0)
 			(effects
 				(font
@@ -1479,7 +1479,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "J16")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1495,7 +1495,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "180b3cef-dfe2-4b65-adf4-223492295d60")
-		(property "Reference" "D24"
+		(property "Reference" "D18"
 			(at 75.946 72.39 0)
 			(effects
 				(font
@@ -1628,7 +1628,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "D24")
+					(reference "D18")
 					(unit 1)
 				)
 			)
@@ -1644,7 +1644,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "23af5b8a-21ed-42b3-9c73-693990cb7033")
-		(property "Reference" "#PWR095"
+		(property "Reference" "#PWR0189"
 			(at 228.6 78.74 0)
 			(effects
 				(font
@@ -1694,7 +1694,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "#PWR095")
+					(reference "#PWR0189")
 					(unit 1)
 				)
 			)
@@ -1710,7 +1710,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "25ac3973-56c5-4384-94c2-c0ed6360c9c0")
-		(property "Reference" "R84"
+		(property "Reference" "R37"
 			(at 71.12 88.8999 0)
 			(effects
 				(font
@@ -1845,7 +1845,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "R84")
+					(reference "R37")
 					(unit 1)
 				)
 			)
@@ -1861,7 +1861,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2f6819a6-0b7a-435d-8dbe-01cd2ec357bb")
-		(property "Reference" "#PWR0171"
+		(property "Reference" "#PWR0195"
 			(at 68.58 80.01 0)
 			(effects
 				(font
@@ -1911,7 +1911,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "#PWR0171")
+					(reference "#PWR0195")
 					(unit 1)
 				)
 			)
@@ -1927,7 +1927,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "36fa619a-5eb9-40e3-ad04-50eea7aede2e")
-		(property "Reference" "Q6"
+		(property "Reference" "Q5"
 			(at 232.41 83.8199 0)
 			(effects
 				(font
@@ -2138,7 +2138,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "Q6")
+					(reference "Q5")
 					(unit 1)
 				)
 			)
@@ -2153,7 +2153,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "38035f30-5517-4003-b65d-59cb2bed68e7")
-		(property "Reference" "#PWR0172"
+		(property "Reference" "#PWR0198"
 			(at 68.58 99.06 0)
 			(effects
 				(font
@@ -2203,7 +2203,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "#PWR0172")
+					(reference "#PWR0198")
 					(unit 1)
 				)
 			)
@@ -2218,7 +2218,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "3c045cf3-a854-4878-9c09-960b65080a9a")
-		(property "Reference" "#PWR092"
+		(property "Reference" "#PWR0190"
 			(at 154.94 99.06 0)
 			(effects
 				(font
@@ -2268,7 +2268,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "#PWR092")
+					(reference "#PWR0190")
 					(unit 1)
 				)
 			)
@@ -2284,7 +2284,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3ca3ae27-36ac-4221-943b-b68022abb0e1")
-		(property "Reference" "D26"
+		(property "Reference" "D20"
 			(at 220.726 72.39 0)
 			(effects
 				(font
@@ -2417,7 +2417,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "D26")
+					(reference "D20")
 					(unit 1)
 				)
 			)
@@ -2432,7 +2432,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "592fe253-ce8b-4071-b82e-4726af7de3bc")
-		(property "Reference" "#PWR096"
+		(property "Reference" "#PWR0192"
 			(at 228.6 99.06 0)
 			(effects
 				(font
@@ -2482,7 +2482,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "#PWR096")
+					(reference "#PWR0192")
 					(unit 1)
 				)
 			)
@@ -2498,7 +2498,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "632c42a0-685d-400a-9eb8-b9c40182c964")
-		(property "Reference" "D25"
+		(property "Reference" "D19"
 			(at 147.066 72.39 0)
 			(effects
 				(font
@@ -2631,7 +2631,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "D25")
+					(reference "D19")
 					(unit 1)
 				)
 			)
@@ -2647,7 +2647,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "760386ed-3571-458e-85cd-75c78e2bbd6e")
-		(property "Reference" "#PWR0174"
+		(property "Reference" "#PWR0196"
 			(at 83.82 78.74 0)
 			(effects
 				(font
@@ -2697,7 +2697,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "#PWR0174")
+					(reference "#PWR0196")
 					(unit 1)
 				)
 			)
@@ -2713,7 +2713,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "84dfde58-0b25-47a6-ad56-5bc2140f740f")
-		(property "Reference" "R53"
+		(property "Reference" "R39"
 			(at 142.24 88.8999 0)
 			(effects
 				(font
@@ -2848,7 +2848,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "R53")
+					(reference "R39")
 					(unit 1)
 				)
 			)
@@ -2864,7 +2864,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "86d8fb60-c398-4d98-b76c-f45ddd6828d2")
-		(property "Reference" "R52"
+		(property "Reference" "R38"
 			(at 133.35 81.28 90)
 			(effects
 				(font
@@ -2997,7 +2997,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "R52")
+					(reference "R38")
 					(unit 1)
 				)
 			)
@@ -3013,7 +3013,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "89a54f27-764e-42f6-9515-734b2a8bbb9a")
-		(property "Reference" "J17"
+		(property "Reference" "J6"
 			(at 236.22 76.1999 0)
 			(effects
 				(font
@@ -3031,7 +3031,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 233.68 76.2 0)
 			(effects
 				(font
@@ -3067,7 +3067,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "J17")
+					(reference "J6")
 					(unit 1)
 				)
 			)
@@ -3083,7 +3083,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8c6e8c58-0129-4ee5-a273-4514366681a8")
-		(property "Reference" "R54"
+		(property "Reference" "R40"
 			(at 207.01 81.28 90)
 			(effects
 				(font
@@ -3216,7 +3216,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "R54")
+					(reference "R40")
 					(unit 1)
 				)
 			)
@@ -3232,7 +3232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "8efd7af2-88af-41b0-9490-02e5a247c489")
-		(property "Reference" "Q7"
+		(property "Reference" "Q3"
 			(at 87.63 83.8199 0)
 			(effects
 				(font
@@ -3443,7 +3443,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "Q7")
+					(reference "Q3")
 					(unit 1)
 				)
 			)
@@ -3459,7 +3459,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a366336d-8877-418f-80d3-3d5a9a3ccd22")
-		(property "Reference" "#PWR091"
+		(property "Reference" "#PWR0191"
 			(at 154.94 78.74 0)
 			(effects
 				(font
@@ -3509,7 +3509,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "#PWR091")
+					(reference "#PWR0191")
 					(unit 1)
 				)
 			)
@@ -3524,7 +3524,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "b0323b15-ff5a-47f3-8efa-01ad562102eb")
-		(property "Reference" "#PWR090"
+		(property "Reference" "#PWR0194"
 			(at 139.7 99.06 0)
 			(effects
 				(font
@@ -3574,7 +3574,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "#PWR090")
+					(reference "#PWR0194")
 					(unit 1)
 				)
 			)
@@ -3590,7 +3590,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b2c68e26-c69f-4959-871d-89cd0baf3644")
-		(property "Reference" "J15"
+		(property "Reference" "J4"
 			(at 91.44 76.1999 0)
 			(effects
 				(font
@@ -3608,7 +3608,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Molex:Molex_Micro-Fit_3.0_43650-0215_1x02_P3.00mm_Vertical"
+		(property "Footprint" "Connector_JST:JST_EH_B2B-EH-A_1x02_P2.50mm_Vertical"
 			(at 88.9 76.2 0)
 			(effects
 				(font
@@ -3644,7 +3644,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "J15")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -3660,7 +3660,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c0a92a2b-24a3-4c86-a93b-aed47ff9777d")
-		(property "Reference" "R82"
+		(property "Reference" "R36"
 			(at 62.23 81.28 90)
 			(effects
 				(font
@@ -3793,7 +3793,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "R82")
+					(reference "R36")
 					(unit 1)
 				)
 			)
@@ -3809,7 +3809,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "c90e9d3e-0d4b-4d38-98dd-19e95c4031c0")
-		(property "Reference" "#PWR089"
+		(property "Reference" "#PWR0197"
 			(at 139.7 80.01 0)
 			(effects
 				(font
@@ -3859,7 +3859,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "#PWR089")
+					(reference "#PWR0197")
 					(unit 1)
 				)
 			)
@@ -3874,7 +3874,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "cf81514a-8320-4d80-99e1-36fbd3d2ac5e")
-		(property "Reference" "#PWR094"
+		(property "Reference" "#PWR0193"
 			(at 213.36 99.06 0)
 			(effects
 				(font
@@ -3924,7 +3924,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "#PWR094")
+					(reference "#PWR0193")
 					(unit 1)
 				)
 			)
@@ -3940,7 +3940,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "f233c626-37d9-43b8-b069-ac9076f72c61")
-		(property "Reference" "Q5"
+		(property "Reference" "Q4"
 			(at 158.75 83.8199 0)
 			(effects
 				(font
@@ -4151,7 +4151,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "Q5")
+					(reference "Q4")
 					(unit 1)
 				)
 			)
@@ -4166,7 +4166,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "fbaedd8f-4fe7-4dd7-93a3-450234308766")
-		(property "Reference" "#PWR0175"
+		(property "Reference" "#PWR0199"
 			(at 83.82 99.06 0)
 			(effects
 				(font
@@ -4216,7 +4216,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "#PWR0175")
+					(reference "#PWR0199")
 					(unit 1)
 				)
 			)
@@ -4232,7 +4232,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fcc4e7ba-de90-4be3-8ca5-c3c67606cd60")
-		(property "Reference" "R55"
+		(property "Reference" "R41"
 			(at 215.9 88.8999 0)
 			(effects
 				(font
@@ -4367,7 +4367,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "R55")
+					(reference "R41")
 					(unit 1)
 				)
 			)
@@ -4383,7 +4383,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fea1b272-cbdd-4408-9654-9915aabf9614")
-		(property "Reference" "#PWR093"
+		(property "Reference" "#PWR0188"
 			(at 213.36 80.01 0)
 			(effects
 				(font
@@ -4433,7 +4433,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/6a16d2ee-e303-4211-9829-9eeec2519e33"
-					(reference "#PWR093")
+					(reference "#PWR0188")
 					(unit 1)
 				)
 			)

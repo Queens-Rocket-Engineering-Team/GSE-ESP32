@@ -420,7 +420,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "140ca2d0-c6c9-48eb-80f6-d8cea8372300")
-		(property "Reference" "#PWR022"
+		(property "Reference" "#PWR0115"
 			(at 165.1 106.68 0)
 			(effects
 				(font
@@ -470,7 +470,7 @@
 		(instances
 			(project ""
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/3fe78498-f3da-4a4e-905d-c6815bbc6a4f"
-					(reference "#PWR022")
+					(reference "#PWR0115")
 					(unit 1)
 				)
 			)
@@ -486,7 +486,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "fb68f730-d45b-4250-8bee-5d841f7ec6e4")
-		(property "Reference" "J3"
+		(property "Reference" "J1"
 			(at 177.8 85.0899 0)
 			(effects
 				(font
@@ -504,7 +504,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_EH_B4B-EH-A_1x04_P2.50mm_Vertical"
 			(at 175.26 85.09 0)
 			(effects
 				(font
@@ -546,7 +546,7 @@
 		(instances
 			(project ""
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/3fe78498-f3da-4a4e-905d-c6815bbc6a4f"
-					(reference "J3")
+					(reference "J1")
 					(unit 1)
 				)
 			)

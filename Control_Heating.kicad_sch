@@ -506,7 +506,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "92f29c84-afba-4ed6-bca6-b2be607fcbe9")
-		(property "Reference" "J19"
+		(property "Reference" "J7"
 			(at 74.93 87.63 0)
 			(effects
 				(font
@@ -522,7 +522,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_J2100_B08B-J21DK-GGXR_2x04_P2.50x4.00mm_Vertical"
 			(at 73.66 96.52 0)
 			(effects
 				(font
@@ -576,7 +576,7 @@
 		(instances
 			(project ""
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/0c734fb5-09c2-4b1e-989d-a08b4d481f06"
-					(reference "J19")
+					(reference "J7")
 					(unit 1)
 				)
 			)
@@ -592,7 +592,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d07c1503-8acf-4e87-ba13-074da1f626e6")
-		(property "Reference" "J18"
+		(property "Reference" "J8"
 			(at 138.43 87.63 0)
 			(effects
 				(font
@@ -608,7 +608,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Connector_JST:JST_J2100_B08B-J21DK-GGXR_2x04_P2.50x4.00mm_Vertical"
 			(at 137.16 96.52 0)
 			(effects
 				(font
@@ -662,7 +662,7 @@
 		(instances
 			(project "QRET-ESP32"
 				(path "/24817451-dfe0-4b9a-9d93-7304529c9d58/0c734fb5-09c2-4b1e-989d-a08b4d481f06"
-					(reference "J18")
+					(reference "J8")
 					(unit 1)
 				)
 			)
