@@ -3282,6 +3282,16 @@
 		)
 		(uuid "2044d40c-1c9d-4f55-9827-64c101429589")
 	)
+	(text "What's +24_PT for here?"
+		(exclude_from_sim no)
+		(at 119.634 118.872 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "246efe34-af7e-49c5-b3a0-7723094359cf")
+	)
 	(text "FB\nR_{2} = (100k)/(V_{out} - 1)"
 		(exclude_from_sim no)
 		(at 158.242 60.96 0)
@@ -5344,7 +5354,7 @@
 		)
 		(uuid "4e5819c5-8aeb-40ec-ade0-d4782866d73c")
 	)
-	(label "SW"
+	(label "SW-12"
 		(at 71.12 161.29 0)
 		(effects
 			(font
@@ -5384,7 +5394,7 @@
 		)
 		(uuid "7ef11b98-ae08-40a3-9ab2-35a455fe7b94")
 	)
-	(label "SW"
+	(label "SW-5"
 		(at 143.51 30.48 0)
 		(effects
 			(font
@@ -5394,7 +5404,7 @@
 		)
 		(uuid "847b0fe4-6b80-4c89-a318-1c0257933381")
 	)
-	(label "SW"
+	(label "SW-12"
 		(at 72.39 151.13 0)
 		(effects
 			(font
@@ -5414,13 +5424,13 @@
 		)
 		(uuid "c3439f02-6705-4283-bdd5-f2ec51700fd8")
 	)
-	(label "VCC"
-		(at 45.72 168.91 0)
+	(label "VCC-12"
+		(at 45.72 168.91 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "cc181d27-fe40-4c63-b050-4b6537aecbf7")
 	)
@@ -5434,7 +5444,7 @@
 		)
 		(uuid "d1070afc-f88f-46fd-8973-03403e9c2679")
 	)
-	(label "VCC"
+	(label "VCC-5"
 		(at 116.84 48.26 0)
 		(effects
 			(font
@@ -5464,7 +5474,7 @@
 		)
 		(uuid "df51e9d2-4adb-4523-898f-d4b031eb8b19")
 	)
-	(label "SW"
+	(label "SW-5"
 		(at 142.24 40.64 0)
 		(effects
 			(font

@@ -495,7 +495,7 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "TODO:\nVerify all stolen and original connections make sense.\nOnce specific hardware models are known, look at all PWR lines especially.\nChange to old Panda Microcontroller\nVerify step-down converter for fan power.\nIf some power regulation lines can be removed (24V safe), bring power regulation pages together.\n\nKeep decoupling capacitor close for wavelength reasons (general)\n\nNix All Safe_24\nRemove Old ESP32 Stuff\nNix USB Oring\n"
+	(text "TODO:\nVerify all stolen and original connections make sense.\nOnce specific hardware models are known, look at all PWR lines especially.\nChange to old Panda Microcontroller\nVerify step-down converter for fan power.\nIf some power regulation lines can be removed (24V safe), bring power regulation pages together.\n\nKeep decoupling capacitor close for wavelength reasons (general)\n"
 		(exclude_from_sim no)
 		(at 14.732 27.178 0)
 		(effects
@@ -1044,6 +1044,28 @@
 			)
 		)
 	)
+	(global_label "24V_GOOD"
+		(shape input)
+		(at 130.81 128.27 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "117082a5-1cf5-47c2-b648-95f71f10a0e4")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.4714 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "I2C_Data"
 		(shape input)
 		(at 29.21 59.69 180)
@@ -1062,6 +1084,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "24V_GOOD"
+		(shape input)
+		(at 67.31 57.15 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "18abb3cc-f67c-4642-9036-5ec5ca8eab13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.9714 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -1814,6 +1858,28 @@
 			)
 		)
 	)
+	(global_label "12V_GOOD"
+		(shape input)
+		(at 67.31 54.61 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "bf0da084-9916-4c57-98ec-25393f067b45")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 79.9714 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "DRDY1"
 		(shape input)
 		(at 67.31 73.66 0)
@@ -2030,6 +2096,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "12V_GOOD"
+		(shape input)
+		(at 130.81 125.73 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e75f286a-0f02-4da3-96cb-ccb3dd9ffa13")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 143.4714 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -4018,6 +4106,26 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+			)
+		)
+		(pin "12_Good" input
+			(at 67.31 54.61 0)
+			(uuid "ffa028cb-f2b6-45f1-9a6a-ef9395d4eba1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "24_Good" input
+			(at 67.31 57.15 0)
+			(uuid "c5a3a594-4e04-4dfc-904d-afee66f67127")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 			)
 		)
 		(instances

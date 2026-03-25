@@ -1456,6 +1456,26 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 77.47) (xy 81.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4160a4f5-99b1-43d3-bb79-88d70c1878e3")
+	)
+	(wire
+		(pts
+			(xy 80.01 74.93) (xy 81.28 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "55e241a9-7093-4ae0-9b86-9d623dc6a6bb")
+	)
+	(wire
+		(pts
 			(xy 132.08 80.01) (xy 133.35 80.01)
 		)
 		(stroke
@@ -1640,6 +1660,17 @@
 		)
 		(uuid "347a9875-bba7-4c74-9350-e9d644a8145c")
 	)
+	(hierarchical_label "24_Good"
+		(shape input)
+		(at 80.01 74.93 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3b564553-aa73-4d9b-be02-16a42c535912")
+	)
 	(hierarchical_label "Heat_2_Power"
 		(shape output)
 		(at 133.35 62.23 0)
@@ -1661,6 +1692,17 @@
 			(justify left)
 		)
 		(uuid "68061935-f952-4ad4-b94b-4c1945dd76f7")
+	)
+	(hierarchical_label "12_Good"
+		(shape input)
+		(at 80.01 77.47 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "8015ae6e-5248-4016-9eac-fbdef7ff6911")
 	)
 	(hierarchical_label "Actuator_Nitrous_Control"
 		(shape output)
