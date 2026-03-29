@@ -1486,6 +1486,16 @@
 	)
 	(wire
 		(pts
+			(xy 80.01 72.39) (xy 81.28 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "61536507-3663-4baa-878c-0293e9bb5264")
+	)
+	(wire
+		(pts
 			(xy 132.08 72.39) (xy 133.35 72.39)
 		)
 		(stroke
@@ -1594,39 +1604,6 @@
 		)
 		(uuid "41e7dccb-70b5-4d5a-b7c5-1f38c5e63d9e")
 	)
-	(hierarchical_label "Actuator_2_Control"
-		(shape output)
-		(at 133.35 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "01bab952-3a5d-462f-9864-8949f127024c")
-	)
-	(hierarchical_label "Fan_2_Control"
-		(shape output)
-		(at 133.35 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0a7a37d6-edf3-490d-8dc2-06d3132c7ab2")
-	)
-	(hierarchical_label "Actuator_1_Control"
-		(shape output)
-		(at 133.35 69.85 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0c195656-aeb1-4d06-bc1b-02168b375cb7")
-	)
 	(hierarchical_label "DRDY2"
 		(shape input)
 		(at 133.35 54.61 0)
@@ -1649,27 +1626,16 @@
 		)
 		(uuid "31d63277-a7b1-4ebd-bc4d-d3adeadd4d0d")
 	)
-	(hierarchical_label "Fan_2_PWM"
+	(hierarchical_label "Actuator_Nitrous_Control"
 		(shape output)
-		(at 133.35 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "347a9875-bba7-4c74-9350-e9d644a8145c")
-	)
-	(hierarchical_label "24_Good"
-		(shape input)
-		(at 80.01 74.93 180)
+		(at 80.01 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "3b564553-aa73-4d9b-be02-16a42c535912")
+		(uuid "366b009d-509d-420d-aed4-73eb4a88681d")
 	)
 	(hierarchical_label "Heat_2_Power"
 		(shape output)
@@ -1682,38 +1648,27 @@
 		)
 		(uuid "4e7c6243-3aea-4629-8ae3-e7dc8ef51e5d")
 	)
-	(hierarchical_label "Fan_1_PWM"
+	(hierarchical_label "Fan_1_Control"
 		(shape output)
-		(at 133.35 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "68061935-f952-4ad4-b94b-4c1945dd76f7")
-	)
-	(hierarchical_label "12_Good"
-		(shape input)
-		(at 80.01 77.47 180)
+		(at 81.28 46.99 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right)
 		)
-		(uuid "8015ae6e-5248-4016-9eac-fbdef7ff6911")
+		(uuid "66c52960-0ebc-44a0-bdb4-f0113a473e66")
 	)
-	(hierarchical_label "Actuator_Nitrous_Control"
+	(hierarchical_label "Actuator_2_Control"
 		(shape output)
-		(at 133.35 74.93 0)
+		(at 80.01 74.93 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "82b44595-60fc-4bae-9b2c-4f6df25e591e")
+		(uuid "81c0e6ce-e5ba-4cba-84b7-3dd3193aef05")
 	)
 	(hierarchical_label "I2C_SCL"
 		(shape bidirectional)
@@ -1726,6 +1681,28 @@
 		)
 		(uuid "91522016-e4d1-4455-ae69-14e253b55fa1")
 	)
+	(hierarchical_label "24_Good"
+		(shape input)
+		(at 81.28 52.07 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9201f364-dd50-49b2-ab85-b34528da31aa")
+	)
+	(hierarchical_label "12_Good"
+		(shape input)
+		(at 81.28 54.61 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "9375950b-923c-4948-9619-0fe884a27c94")
+	)
 	(hierarchical_label "DRDY1"
 		(shape input)
 		(at 133.35 52.07 0)
@@ -1736,6 +1713,39 @@
 			(justify left)
 		)
 		(uuid "b0bc4a4a-f43a-4d9a-a9e0-e83ca54d7dca")
+	)
+	(hierarchical_label "Fan_1_PWM"
+		(shape output)
+		(at 81.28 49.53 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b143ee46-75c6-4985-8ad4-6fdee98d022e")
+	)
+	(hierarchical_label "Fan_2_Control"
+		(shape output)
+		(at 81.28 67.31 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b556414c-8ae2-4e6b-a05d-5aaafae41bf6")
+	)
+	(hierarchical_label "Actuator_1_Control"
+		(shape output)
+		(at 80.01 72.39 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b96ab456-41d0-46c4-b0c8-4d794eec6750")
 	)
 	(hierarchical_label "I2C_SDA"
 		(shape bidirectional)
@@ -1748,16 +1758,16 @@
 		)
 		(uuid "c303757e-a1ac-4b58-9b44-3598547db467")
 	)
-	(hierarchical_label "Fan_1_Control"
+	(hierarchical_label "Fan_2_PWM"
 		(shape output)
-		(at 133.35 46.99 0)
+		(at 81.28 69.85 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
-		(uuid "cefb74d0-7717-46c2-9fe2-18b7f3f23cea")
+		(uuid "ec02bb57-4454-4021-bd27-4663c9ef9ff0")
 	)
 	(hierarchical_label "DRDY3"
 		(shape input)
